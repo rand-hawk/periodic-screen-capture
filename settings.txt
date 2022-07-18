@@ -1,0 +1,52 @@
+[modbus_page]
+ipaddr = 192.168.0.7
+pageurl = 192.168.0.7/sernet1.shtml?0
+uname = admin
+pwd = admin
+modbusport = 502
+
+[http_page]
+ipaddr = 192.168.0.7
+pageurl = 192.168.0.7/sernet1.shtml?1
+uname = admin
+pwd = admin
+token = /receive?t=123456789
+server = 192.168.0.125
+
+[misc_page]
+ipaddr = 192.168.0.7
+pageurl = 192.168.0.7/misc.shtml
+uname = admin
+pwd = admin
+newuname = hawk
+newpwd = 0195h
+rsttime = 65000
+
+[dynamic_page]
+ipaddr = 192.168.0.7
+pageurl = 192.168.0.7/ipconfig.shtml
+uname = hawk
+pwd = 0195h
+statip = 110
+
+[reset_page]
+ipaddr = 192.168.0.7
+pageurl = 192.168.0.7/manage.shtml
+uname = hawk
+pwd = 0195h
+
+[search_device]
+start = 150
+end = 160
+uname = hawk
+pwd = 0195h
+timeout = 0.3
+network = 192.168.0.
+
+[last_serial]
+last_ser = 300
+
+[screen_capture]
+period = 3
+file_name_tag = vib_freq_spectrum_
+

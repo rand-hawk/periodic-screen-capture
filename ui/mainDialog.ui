@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainDialog</class>
+ <widget class="QDialog" name="mainDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>241</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEditFileNameTag">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>60</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxPeriod">
+   <property name="geometry">
+    <rect>
+     <x>195</x>
+     <y>25</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>43200</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonStartCapture">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>25</y>
+     <width>161</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start Screen Capture</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditStatus">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>461</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>5</y>
+     <width>96</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Period (seconds)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonStopCapture">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>60</y>
+     <width>161</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stop Screen Capture</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
